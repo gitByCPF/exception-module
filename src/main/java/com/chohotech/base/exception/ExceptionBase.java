@@ -2,6 +2,7 @@ package com.chohotech.base.exception;
 
 import lombok.Getter;
 
+@SuppressWarnings("unused")
 @Getter
 public class ExceptionBase extends Exception {
     private String code;
