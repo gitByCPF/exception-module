@@ -7,7 +7,7 @@ public enum ExceptionEnum {
     INVALID_AUTH("401", "unauthorized"),
     TOO_MANY_TIMES("429", "too many times"),
     FORBIDDEN_ERROR("403", "forbidden"),
-    INVALID_REQUEST("400", "parse error");
+    INVALID_REQUEST("400", "bad request");
 
     private final String code;
     private final String message;
